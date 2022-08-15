@@ -1,0 +1,72 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+}
+
+header {
+    background-color: #FFE7E7;
+    color: #1044FF; 
+    display: flex;
+    flex-wrap: wrap;
+    width: 360px;   
+    height: 640px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'Noticia Text';
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+h3 {
+
+}
+
+.contact {
+    background-color: #FFE7E7
+}
+
+.details-box {
+    background-color: #FFFFFF;
+}
+
+.information {
+   background-color: #1044FF;
+   color:#FFFFFF
+   ; 
+}
+
+.information h2, .information h4 {
+    color: #FFE7E7;
+}
+
+footer {
+    background-color: #0C1F3F;
+    color:#FFFFFF;
+    font-size: 16px;
+    
+}
+
+.gallery {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.image-holder {
+    border-radius: 5%;
+}
+#img1 {
+    background-image: url("/images/img_1.png");
+    background-size: cover;    
+}
+
+#img2 {
+    background-image: url("/images/img_2.jpg");
+
+}
