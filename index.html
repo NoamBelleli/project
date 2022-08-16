@@ -7,13 +7,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Noticia+Text&family=Source+Sans+Pro&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/c09427d412.js" crossorigin="anonymous"></script>
  
     </head>
     <body>
         <header>
             <nav class="navbar">
                 <p>PRB</p>
-                <ul clas="menu">
+                <ul class="menu">
                     <li><a href="#">About</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Contact</a></li>
@@ -23,90 +24,106 @@
             <h1>Pierre R Bernard</h1>
             <h3>Personal Blog</h3>
         </header>
-        <main>
+        <main> 
             <article class="gallery">
-                <section class="gallery-item" id="#1post"> 
+                <section class="gallery-item" id="post1"> 
 
-                    <div class="image-holder" id="img1"></div>
+                    <div class="image-holder">
+                        <img id="img1" src="/images/img_1.png" alt="beach">
+                    </div>
                     <p>Qualisque</p>
                     <h2>Qui no stet ferri qualisque ut clita scripserit nec</h2> 
                     <figure class="author">
-                        <img src="" alt="autor img">
+                        <img class ="avatar" src="/images/author1small.png" alt="autor img">
                         <figcaption>Graham Griffiths</figcaption>
                     </figure>
 
                 </section>
 
-                <section class="gallery-item" id="#2post">
+                <section class="gallery-item" id="post2">
 
-                    <div class="image-holder" id="img2"></div>
+                    <div class="image-holder">
+                        <img id="img2" src="/images/daniela-cuevas-t7YycgAoVSw-unsplash.png" alt="hot air baloons">
+                    </div>
                     <p>Fabellas</p>
                     <h2>Mei ei tollit epicurei epicurei invenire</h2> 
                     <figure class="author">
-                        <img src="" alt="autor img">
+                        <img class ="avatar" src="/images/author2.png" alt="autor img">
                         <figcaption>Marysa Labrone</figcaption>
                     </figure>
                     
                 </section>
 
-                <section class="gallery-item" id="#3post">
+                <section class="gallery-item" id="post3">
 
-                    <div class="image-holder" id="img3"></div>
+                    <div class="image-holder">
+                        <img id="img3" src="/images/img_3.png" alt="street">
+                    </div>
                     <p>Qualisque</p>
                     <h2>Ne his dolorum molestie reprehendunt</h2> 
                     <figure class="author">
-                        <img src="" alt="autor img">
+                        <img class ="avatar" src="/images/author1small.png" alt="autor img">
                         <figcaption>Graham Griffiths</figcaption>
                     </figure>
                     
                 </section>
 
-                <section class="gallery-item" id="#4post">
+                <section class="gallery-item" id="post4">
 
-                    <div class="image-holder" id="img4"></div>
+                    <div class="image-holder">
+                        <img id="img4" src="/images/img_4.png" alt="sunset">
+                    </div>
                     <p>Fabellas</p>
                     <h2>Altera integre suavitate per an alienum phaedrum</h2> 
                     <figure class="author">
-                        <img src="" alt="autor img">
+                        <img class ="avatar" src="/images/author2.png" alt="autor img">
                         <figcaption>Marysa Labrone</figcaption>
                     </figure>
                     
                 </section>
 
-                <section class="gallery-item" id="#5post">
+                <section class="gallery-item" id="post5">
 
-                    <div class="image-holder" id="img5"></div>
+                    <div class="image-holder">
+                        <img id="img5" src="/images/img_5.png" alt="yoga">
+                    </div>
                     <p>Qualisque</p>
                     <h2>Ex sea causae dolores nam et  dicunt feugait</h2> 
                     <figure class="author">
-                        <img src="" alt="autor img">
+                        <img class ="avatar" src="/images/author1small.png" alt="autor img">
                         <figcaption>Graham Griffiths</figcaption>
                     </figure>
                     
                 </section>
 
-                <section class="gallery-item" id="#6post">
+                <section class="gallery-item" id="post6">
+                    
 
-                    <div class="image-holder" id="img6"></div>
+                    <div class="image-holder">
+                        <img id="img6" src="/images/img_6.png" alt="boat">
+                    </div>
                     <p>Fabellas</p>
                     <h2>Vidit maiestatis principes persecuti maiestatis mei</h2> 
                     <figure class="author">
-                        <img src="" alt="autor img">
+                        <img class ="avatar" src="/images/author2.png" alt="autor img">
                         <figcaption>Marysa Labrone</figcaption>
                     </figure>
-                    
+                   
                 </section>
 
-            </article>
-            <nav>
+            
+               <nav class="page-numbers">
                 <ul class="pages">
                     <li><button class="current">1</button></li>
                     <li><button>2</button></li>
                     <li><button class="next">Next</button></li>
                 </ul>
             </nav>
-            <article class="sidebar">
-                <section id="categories">
+          </article>
+        </main>
+        <aside class="sidebar">   
+            
+                <section class="sidebar-box" id="categories">
                     <h2>Categories</h2>
 
                     <div class="categorie">
@@ -124,7 +141,6 @@
 
                     </div>
                     <hr>
-
                     <div class="categorie">
 
                         <p>Dolores</p>
@@ -151,41 +167,45 @@
 
                 </section>
 
-                <section id="recent-post">
+                <section class="sidebar-box" id="recent-post">
                     <h2>Recent Posts</h2>
-                    <div>
+                    <div class="recent">
                         
-                        <figure>
-                            <img src="" alt="post">
-                            <figcaption class="img-text">Pro eu apeirian suavitate dissentiet</figcaption>
-                            <figcaption class="img-date">20 august 2019</figcaption>
-                        </figure>
                         
-                    </div>
-                    <div>
-                        
-                        <figure>
-                            <img src="" alt="post">
-                            <figcaption class="img-text">Qui dicunt ancillae id, ne mea homero persequeris</figcaption>
-                            <figcaption class="img-date">20 august 2019</figcaption>
-                        </figure>
+                            <img src="/images/recent1.png" alt="post">
+                        <div class="caption">   
+                            <p>Pro eu apeirian suavitate dissentiet</p>
+                            <p>20 august 2019</p>
+                        </div>
                         
                     </div>
-                    <div>
+                    <div class="recent">
                         
-                        <figure>
-                            <img src="" alt="post">
-                            <figcaption class="img-text">Ius delectus instructior eu, eu eum mentitum percipit</figcaption>
-                            <figcaption class="img-date">20 august 2019</figcaption>
-                        </figure>
+                        
+                            <img src="/images/recent2.png" alt="post">
+                        <div class="caption">
+                            <p>Qui dicunt ancillae id, ne mea homero persequeris</p>
+                            <p>20 august 2019</p>
+                        </div>
+                        
+                    </div>
+                    <div class="recent"> 
+                            <img src="/images/recent3.png" alt="post">
+                            
+                        <div class="caption">
+                            <p>Ius delectus instructior eu, eu eum mentitum percipit</p>
+                            <p>20 august 2019</p>
+                        </div>
+                        
                         
                     </div>
 
                     
                 </section>
 
-                <section id="tags">
-                    <ul class="tag-box">
+                <section class="sidebar-box" id="tags">
+                    <h2>tags</h2>
+                    <ul id="tag-list">
                         <li>Vide</li>
                         <li>Legimus</li>
                         <li>Consectetuer</li>
@@ -199,32 +219,40 @@
                     </ul>
 
                 </section>
-            </article>
-        </main>
+            
+        </aside> 
+        <footer>
             <article class="contact">
                 <h3>Share your thoughts</h3>
                 <h2>Contact me</h2>
+               <div class="contact-boxes">
                 <section class="details-box">
-                    
-                    <img src="" alt="location icon">
+                    <i class="fa-solid fa-location-dot fa-2xl"></i>
+                  <div class="wrapper">                  
                     <h4>Office</h4>
                     <p>Mel timeam, 123 45-67</p>
+                  </div>
 
                 </section>
                 <section class="details-box">
-
-                    <img src="" alt="phone icon">
+                    <i class="fa-solid fa-phone-volume fa-2xl"></i>
+                  <div class="wrapper">
                     <h4>Call me</h4>
                     <p>+1 234 567 89 00</p>
+                  </div>
+                    
 
                 </section>
                 <section class="details-box">
-
-                    <img src="" alt="mail icon">
+                    <i class="fa-solid fa-at fa-2xl"></i>
+                  <div class="wrapper">
                     <h4>Write me</h4>
                     <p>info@gmail.com</p>
+                  </div>
+                    
 
                 </section>
+             </div>
 
 
             </article>
@@ -233,9 +261,9 @@
                     <h2>PRB</h2>
                     <p>Sit alii tantas viderer no. An mel nostrum appareat. Ad consul facilis est. Vix habeo scaevola percipitur ne, qui noster abhorreant ne.</p>
                     <ul class="social-icons">
-                        <li><img src="" alt="facebook"></li>
-                        <li><img src="" alt="twitter"></li>
-                        <li><img src="" alt="instagram"></li>
+                        <li><i class="fa-brands fa-facebook fa-2xl"></i></li>
+                        <li><i class="fa-brands fa-twitter fa-2xl"></i></li>
+                        <li><i class="fa-brands fa-instagram fa-2xl"></i></li>
                     </ul>
 
                 </section>
@@ -269,8 +297,9 @@
                 </section>
             </article>        
         
-        <footer>
-            <p>© Masterschool, 2022. All rights reserved</p>
+            <section class="copyrights">
+                <p>© Masterschool, 2022. All rights reserved</p>
+            </section>
         </footer>
     </body>
 </html>
