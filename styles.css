@@ -358,7 +358,7 @@ hr {
   justify-content: center;
 }
 
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   body {
     grid-template-columns: 100%;
     grid-template-areas:
