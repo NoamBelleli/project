@@ -38,8 +38,8 @@ header {
   color: #1044ff;
 }
 
-.navbar i{
-    visibility: hidden;
+.navbar i {
+  visibility: hidden;
 }
 
 aside {
@@ -52,6 +52,11 @@ footer {
   grid-area: footer;
   display: flex;
   flex-wrap: wrap;
+}
+
+.plain-links {
+  text-decoration: none;
+  color: inherit;
 }
 
 .gallery {
@@ -85,10 +90,34 @@ footer {
   grid-area: f;
 }
 
-.pages {
+.page-numbers{
   grid-area: pages;
   display: flex;
-  align-self: center;
+  justify-content: center;
+}
+
+.pages{
+  display: flex;
+  justify-content: center;
+}
+.page{
+    border-radius: 3px;
+    margin: 8px;
+    width: 48px;
+    height: 48px;    
+    border: 1px solid #1044FF;
+    background-color:#ffffff;
+    color:#1044FF;
+    font-weight: 700;
+}
+
+.current{
+    background-color: #1044FF;
+    color: #ffffff;
+}
+
+.next{
+    width: 106px;
 }
 
 .gallery-item {
@@ -105,13 +134,25 @@ h1 {
   font-size: 72px;
   font-weight: 700;
   margin-bottom: 0;
+  
+}
+
+header h3{    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
 
 .navbar {
   display: flex;
   flex-flow: row wrap;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .menu {
@@ -120,8 +161,32 @@ h1 {
   justify-content: space-between;
 }
 
-button .signup {
-  color: #1044ff;
+.sign-up {
+  background-color: #1044ff;
+  color: #ffffff;
+  border-radius: 10%;
+  width: 130px;
+  height: 44px;
+}
+
+.icon-wrapper {
+  visibility: hidden;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+.navbar i {
+  content: 0;
+  padding: 0;
+}
+
+.navbar p{
+    font-family: 'Noticia Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 4px;    
+    margin: 0;
 }
 
 figure {
@@ -307,7 +372,6 @@ hr {
 
 @media (max-width: 500px) {
   body {
-    
     grid-template-columns: 100%;
     grid-template-areas:
       "header"
@@ -341,5 +405,16 @@ hr {
 
   #map {
     width: 100%;
+  }
+
+  .menu {
+    visibility: hidden;
+  }
+  .sign-up {
+    visibility: hidden;
+  }
+
+  .icon-wrapper {
+    visibility: visible;
   }
 }

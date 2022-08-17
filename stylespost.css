@@ -18,8 +18,8 @@ ul {
   list-style: none;
 }
 
-a{
-    text-decoration:none ;
+a {
+  text-decoration: none;  
 }
 
 header {
@@ -48,6 +48,11 @@ footer {
   flex-wrap: wrap;
 }
 
+.plain-links {
+  text-decoration: none;
+  color: inherit;
+}
+
 .gallery-item {
   display: flex;
   flex-flow: column wrap;
@@ -69,23 +74,42 @@ h1 {
   display: flex;
   flex-flow: row wrap;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 20px;
 }
-.navbar i{
-    visibility: hidden;
-    content: 0;
-    padding: 0;
+.icon-wrapper {
+  visibility: hidden;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+.navbar i {
+  content: 0;
+  padding: 0;
+}
 
+.navbar p{
+    font-family: 'Noticia Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 4px;    
+    margin: 0;
 }
+
 .menu {
   display: flex;
   width: 20%;
   justify-content: space-between;
 }
 
-button .signup {
-  color: #1044ff;
-}
+.sign-up {
+    background-color: #1044ff;
+    color: #ffffff;
+    border-radius: 10%;
+    width: 130px;
+    height: 44px;
+  }
 
 figure {
   display: flex;
@@ -113,7 +137,7 @@ figure {
   list-style: disc;
   color: #1044ff;
 }
-.article-links a {  
+.article-links a {
   color: black;
 }
 
@@ -365,7 +389,7 @@ hr {
   justify-content: center;
 }
 
-@media (max-width: 500px) {
+@media  (max-width: 500px) {
   body {
     grid-template-columns: 100%;
     grid-template-areas:
@@ -402,15 +426,14 @@ hr {
     width: 100%;
   }
 
-  .menu{
+  .menu {
     visibility: hidden;
   }
-  .sign-up{
+  .sign-up {
     visibility: hidden;
   }
 
-  .navbar i{
-    visibility:visible;
-    
-}
+  .icon-wrapper {
+    visibility: visible;
+  }
 }
