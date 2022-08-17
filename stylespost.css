@@ -19,7 +19,7 @@ ul {
 }
 
 a {
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 header {
@@ -88,13 +88,13 @@ h1 {
   padding: 0;
 }
 
-.navbar p{
-    font-family: 'Noticia Text';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    letter-spacing: 4px;    
-    margin: 0;
+.navbar p {
+  font-family: "Noticia Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 4px;
+  margin: 0;
 }
 
 .menu {
@@ -104,12 +104,12 @@ h1 {
 }
 
 .sign-up {
-    background-color: #1044ff;
-    color: #ffffff;
-    border-radius: 10%;
-    width: 130px;
-    height: 44px;
-  }
+  background-color: #1044ff;
+  color: #ffffff;
+  border-radius: 10%;
+  width: 130px;
+  height: 44px;
+}
 
 figure {
   display: flex;
@@ -389,7 +389,7 @@ hr {
   justify-content: center;
 }
 
-@media  (max-width: 500px) {
+@media (max-width: 500px) {
   body {
     grid-template-columns: 100%;
     grid-template-areas:

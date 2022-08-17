@@ -79,34 +79,34 @@ footer {
   grid-area: f;
 }
 
-.page-numbers{
+.page-numbers {
   grid-area: pages;
   display: flex;
   justify-content: center;
 }
 
-.pages{
+.pages {
   display: flex;
   justify-content: center;
 }
-.page{
-    border-radius: 3px;
-    margin: 8px;
-    width: 48px;
-    height: 48px;    
-    border: 1px solid #1044FF;
-    background-color:#ffffff;
-    color:#1044FF;
-    font-weight: 700;
+.page {
+  border-radius: 3px;
+  margin: 8px;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #1044ff;
+  background-color: #ffffff;
+  color: #1044ff;
+  font-weight: 700;
 }
 
-.current{
-    background-color: #1044FF;
-    color: #ffffff;
+.current {
+  background-color: #1044ff;
+  color: #ffffff;
 }
 
-.next{
-    width: 106px;
+.next {
+  width: 106px;
 }
 
 .gallery-item {
@@ -123,17 +123,16 @@ h1 {
   font-size: 72px;
   font-weight: 700;
   margin-bottom: 0;
-  
 }
 
-header h3{    
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+header h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .navbar {
@@ -169,13 +168,13 @@ header h3{
   padding: 0;
 }
 
-.navbar p{
-    font-family: 'Noticia Text';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    letter-spacing: 4px;    
-    margin: 0;
+.navbar p {
+  font-family: "Noticia Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 4px;
+  margin: 0;
 }
 
 figure {
