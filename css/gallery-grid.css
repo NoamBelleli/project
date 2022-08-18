@@ -1,0 +1,31 @@
+
+.gallery {
+    grid-area: gallery;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+      "a b"
+      "c d"
+      "e f"
+      "pages pages";
+    grid-gap: 10px;
+  }
+  
+  #post1 {
+    grid-area: a;
+  }
+  #post2 {
+    grid-area: b;
+  }
+  #post3 {
+    grid-area: c;
+  }
+  #post4 {
+    grid-area: d;
+  }
+  #post5 {
+    grid-area: e;
+  }
+  #post6 {
+    grid-area: f;
+  }
