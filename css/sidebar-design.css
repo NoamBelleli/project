@@ -8,7 +8,7 @@ aside {
   border: 1px solid #1044ff;
   display: flex;
   flex-flow: column wrap;
-  width: 300px;
+  width: 90%;
   margin: 10px;
   padding: 10px;
 }
